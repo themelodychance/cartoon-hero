@@ -45,6 +45,34 @@ main{
 	padding: 0 20px;
 }
 
+/*Navigation Styles*/
+nav{
+	text-align: right;
+	text-decoration: bold;
+	font-size: 20px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-right: 50px;
+	padding-left: 50px;
+	word-spacing: 50px;
+}
+
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: orange;
+}
+
+nav img{
+	width: 200px;
+	margin-top: -20px;
+}
+
+nav a:hover{
+	color: orange;
+	opacity: .5;
+}
+
 footer{
 	background-color: orange;
 	text-align: center;
